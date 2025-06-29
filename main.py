@@ -72,6 +72,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from feedback import check_feedback  # Make sure feedback.py is in the same folder or imported correctly
+from gemini import geminiCall
 import os
 
 # Load your pretrained model (update the path if needed)
